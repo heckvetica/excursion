@@ -2,16 +2,32 @@ html {
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    align-content: center;
+}
+
+h1, h2 {
+    color: white;
 }
 
 h1 {
-    font-weight: normal;
     font-size: 50px;
-    color: white;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
 }
 
 a {
     color: aquamarine;
     font-size: 16px;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+#copyright {
+    text-align: right;
 }
